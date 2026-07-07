@@ -15,7 +15,6 @@ class SkillLoader:
         # self._dir.absolute()
         self._skills: dict[str, Skill] = {}
         self._load_all()
-        breakpoint()
         
     def _load_all(self) -> None:
         if not self._dir.exists():
